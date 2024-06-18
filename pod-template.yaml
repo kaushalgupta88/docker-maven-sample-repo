@@ -8,3 +8,6 @@ spec:
     containers:
         - name: java-app
           image: image_tag
+    command:
+      - sleep
+      - "3600"  # Sleep for 1 hour to keep the pod running
