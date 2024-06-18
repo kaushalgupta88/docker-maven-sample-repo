@@ -6,5 +6,5 @@ metadata:
         type: app
 spec:
     containers:
-        - name: java=app
+        - name: java-app
           image: image_tag
