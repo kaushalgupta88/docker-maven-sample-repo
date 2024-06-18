@@ -1,1 +1,1 @@
-sed 's/image_tag/'$1'/' $2
+sed 's|image_tag|'$1'|g' $2
