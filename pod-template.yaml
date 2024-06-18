@@ -6,7 +6,5 @@ metadata:
         type: app
 spec:
     containers:
-        - name: webserver
+        - name: java=app
           image: image_tag
-          ports:
-            - containerPort: 80
