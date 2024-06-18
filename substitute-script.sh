@@ -1,1 +1,1 @@
-sed 's/image_tag/'$1'/' $2 > nginx-pod.yaml
+sed 's/image_tag/'$1'/' $2 > java-app-pod.yaml
